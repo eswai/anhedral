@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name wave-rescue)(type Legacy)(uri ${KIPRJMOD}/wave-rescue.lib)(options "")(descr ""))
+  (lib (name anhedral1-mid-rescue)(type Legacy)(uri ${KIPRJMOD}/anhedral1-mid-rescue.lib)(options "")(descr ""))
+)

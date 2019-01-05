@@ -1,0 +1,1664 @@
+EESchema Schematic File Version 4
+LIBS:anhedral1-mid-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L anhedral1-mid-rescue:ProMicro-kbd-wave-rescue U1
+U 1 1 5C022CC8
+P 2500 2150
+F 0 "U1" H 2500 3187 60  0000 C CNN
+F 1 "ProMicro" H 2500 3081 60  0000 C CNN
+F 2 "eswai:ArduinoProMicro" H 2600 1100 60  0001 C CNN
+F 3 "" H 2600 1100 60  0000 C CNN
+	1    2500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW1
+U 1 1 5C0246E9
+P 1200 3650
+F 0 "SW1" H 1200 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 1200 3650 50  0001 C CNN
+F 3 "" H 1200 3650 50  0000 C CNN
+	1    1200 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5C0253D5
+P 1500 3800
+F 0 "D1" V 1546 3721 50  0000 R CNN
+F 1 "D" V 1455 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 1500 3800 50  0001 C CNN
+F 3 "~" H 1500 3800 50  0001 C CNN
+	1    1500 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW2
+U 1 1 5C028522
+P 2050 3650
+F 0 "SW2" H 2050 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 2050 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2050 3650 50  0001 C CNN
+F 3 "" H 2050 3650 50  0000 C CNN
+	1    2050 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5C02852C
+P 2350 3800
+F 0 "D2" V 2396 3721 50  0000 R CNN
+F 1 "D" V 2305 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 2350 3800 50  0001 C CNN
+F 3 "~" H 2350 3800 50  0001 C CNN
+	1    2350 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW3
+U 1 1 5C02CEA8
+P 2900 3650
+F 0 "SW3" H 2900 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 2900 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0000 C CNN
+	1    2900 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5C02CEB2
+P 3200 3800
+F 0 "D3" V 3246 3721 50  0000 R CNN
+F 1 "D" V 3155 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 3200 3800 50  0001 C CNN
+F 3 "~" H 3200 3800 50  0001 C CNN
+	1    3200 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW4
+U 1 1 5C02CEBC
+P 3750 3650
+F 0 "SW4" H 3750 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 3750 3650 50  0001 C CNN
+F 3 "" H 3750 3650 50  0000 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5C02CEC6
+P 4050 3800
+F 0 "D4" V 4096 3721 50  0000 R CNN
+F 1 "D" V 4005 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4050 3800 50  0001 C CNN
+F 3 "~" H 4050 3800 50  0001 C CNN
+	1    4050 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW5
+U 1 1 5C02F7DA
+P 4600 3650
+F 0 "SW5" H 4600 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 4600 3650 50  0001 C CNN
+F 3 "" H 4600 3650 50  0000 C CNN
+	1    4600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D5
+U 1 1 5C02F7E4
+P 4900 3800
+F 0 "D5" V 4946 3721 50  0000 R CNN
+F 1 "D" V 4855 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4900 3800 50  0001 C CNN
+F 3 "~" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW6
+U 1 1 5C02F7EE
+P 5450 3650
+F 0 "SW6" H 5450 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5450 3650 50  0001 C CNN
+F 3 "" H 5450 3650 50  0000 C CNN
+	1    5450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D6
+U 1 1 5C02F7F8
+P 5750 3800
+F 0 "D6" V 5796 3721 50  0000 R CNN
+F 1 "D" V 5705 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5750 3800 50  0001 C CNN
+F 3 "~" H 5750 3800 50  0001 C CNN
+	1    5750 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW7
+U 1 1 5C02F802
+P 6300 3650
+F 0 "SW7" H 6300 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6300 3650 50  0001 C CNN
+F 3 "" H 6300 3650 50  0000 C CNN
+	1    6300 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D7
+U 1 1 5C02F80C
+P 6600 3800
+F 0 "D7" V 6646 3721 50  0000 R CNN
+F 1 "D" V 6555 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6600 3800 50  0001 C CNN
+F 3 "~" H 6600 3800 50  0001 C CNN
+	1    6600 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW8
+U 1 1 5C02F816
+P 7150 3650
+F 0 "SW8" H 7150 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7150 3650 50  0001 C CNN
+F 3 "" H 7150 3650 50  0000 C CNN
+	1    7150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D8
+U 1 1 5C02F820
+P 7450 3800
+F 0 "D8" V 7496 3721 50  0000 R CNN
+F 1 "D" V 7405 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7450 3800 50  0001 C CNN
+F 3 "~" H 7450 3800 50  0001 C CNN
+	1    7450 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW9
+U 1 1 5C0388FE
+P 8000 3650
+F 0 "SW9" H 8000 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8000 3650 50  0001 C CNN
+F 3 "" H 8000 3650 50  0000 C CNN
+	1    8000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D9
+U 1 1 5C038908
+P 8300 3800
+F 0 "D9" V 8346 3721 50  0000 R CNN
+F 1 "D" V 8255 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8300 3800 50  0001 C CNN
+F 3 "~" H 8300 3800 50  0001 C CNN
+	1    8300 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW10
+U 1 1 5C038912
+P 8850 3650
+F 0 "SW10" H 8850 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8850 3650 50  0001 C CNN
+F 3 "" H 8850 3650 50  0000 C CNN
+	1    8850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D10
+U 1 1 5C03891C
+P 9150 3800
+F 0 "D10" V 9196 3721 50  0000 R CNN
+F 1 "D" V 9105 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9150 3800 50  0001 C CNN
+F 3 "~" H 9150 3800 50  0001 C CNN
+	1    9150 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW11
+U 1 1 5C038926
+P 9700 3650
+F 0 "SW11" H 9700 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9700 3650 50  0001 C CNN
+F 3 "" H 9700 3650 50  0000 C CNN
+	1    9700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D11
+U 1 1 5C038930
+P 10000 3800
+F 0 "D11" V 10046 3721 50  0000 R CNN
+F 1 "D" V 9955 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10000 3800 50  0001 C CNN
+F 3 "~" H 10000 3800 50  0001 C CNN
+	1    10000 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW12
+U 1 1 5C03893A
+P 10550 3650
+F 0 "SW12" H 10550 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10550 3650 50  0001 C CNN
+F 3 "" H 10550 3650 50  0000 C CNN
+	1    10550 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D12
+U 1 1 5C038944
+P 10850 3800
+F 0 "D12" V 10896 3721 50  0000 R CNN
+F 1 "D" V 10805 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10850 3800 50  0001 C CNN
+F 3 "~" H 10850 3800 50  0001 C CNN
+	1    10850 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW13
+U 1 1 5C03894E
+P 11400 3650
+F 0 "SW13" H 11400 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 11400 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 11400 3650 50  0001 C CNN
+F 3 "" H 11400 3650 50  0000 C CNN
+	1    11400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D13
+U 1 1 5C038958
+P 11700 3800
+F 0 "D13" V 11746 3721 50  0000 R CNN
+F 1 "D" V 11655 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 11700 3800 50  0001 C CNN
+F 3 "~" H 11700 3800 50  0001 C CNN
+	1    11700 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW14
+U 1 1 5C038962
+P 12250 3650
+F 0 "SW14" H 12250 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 12250 3814 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 12250 3650 50  0001 C CNN
+F 3 "" H 12250 3650 50  0000 C CNN
+	1    12250 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D14
+U 1 1 5C03896C
+P 12550 3800
+F 0 "D14" V 12596 3721 50  0000 R CNN
+F 1 "D" V 12505 3721 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 12550 3800 50  0001 C CNN
+F 3 "~" H 12550 3800 50  0001 C CNN
+	1    12550 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW15
+U 1 1 5C04C1DA
+P 1200 4450
+F 0 "SW15" H 1200 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 1200 4450 50  0001 C CNN
+F 3 "" H 1200 4450 50  0000 C CNN
+	1    1200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D15
+U 1 1 5C04C1E4
+P 1500 4600
+F 0 "D15" V 1546 4521 50  0000 R CNN
+F 1 "D" V 1455 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 1500 4600 50  0001 C CNN
+F 3 "~" H 1500 4600 50  0001 C CNN
+	1    1500 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW16
+U 1 1 5C04C1EE
+P 2050 4450
+F 0 "SW16" H 2050 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 2050 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2050 4450 50  0001 C CNN
+F 3 "" H 2050 4450 50  0000 C CNN
+	1    2050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5C04C1F8
+P 2350 4600
+F 0 "D16" V 2396 4521 50  0000 R CNN
+F 1 "D" V 2305 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 2350 4600 50  0001 C CNN
+F 3 "~" H 2350 4600 50  0001 C CNN
+	1    2350 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW17
+U 1 1 5C04C202
+P 2900 4450
+F 0 "SW17" H 2900 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 2900 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2900 4450 50  0001 C CNN
+F 3 "" H 2900 4450 50  0000 C CNN
+	1    2900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5C04C20C
+P 3200 4600
+F 0 "D17" V 3246 4521 50  0000 R CNN
+F 1 "D" V 3155 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 3200 4600 50  0001 C CNN
+F 3 "~" H 3200 4600 50  0001 C CNN
+	1    3200 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW18
+U 1 1 5C04C216
+P 3750 4450
+F 0 "SW18" H 3750 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 3750 4450 50  0001 C CNN
+F 3 "" H 3750 4450 50  0000 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5C04C220
+P 4050 4600
+F 0 "D18" V 4096 4521 50  0000 R CNN
+F 1 "D" V 4005 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4050 4600 50  0001 C CNN
+F 3 "~" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW19
+U 1 1 5C04C22A
+P 4600 4450
+F 0 "SW19" H 4600 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 4600 4450 50  0001 C CNN
+F 3 "" H 4600 4450 50  0000 C CNN
+	1    4600 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D19
+U 1 1 5C04C234
+P 4900 4600
+F 0 "D19" V 4946 4521 50  0000 R CNN
+F 1 "D" V 4855 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4900 4600 50  0001 C CNN
+F 3 "~" H 4900 4600 50  0001 C CNN
+	1    4900 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW20
+U 1 1 5C04C23E
+P 5450 4450
+F 0 "SW20" H 5450 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5450 4450 50  0001 C CNN
+F 3 "" H 5450 4450 50  0000 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D20
+U 1 1 5C04C248
+P 5750 4600
+F 0 "D20" V 5796 4521 50  0000 R CNN
+F 1 "D" V 5705 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5750 4600 50  0001 C CNN
+F 3 "~" H 5750 4600 50  0001 C CNN
+	1    5750 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW21
+U 1 1 5C04C252
+P 6300 4450
+F 0 "SW21" H 6300 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6300 4450 50  0001 C CNN
+F 3 "" H 6300 4450 50  0000 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D21
+U 1 1 5C04C25C
+P 6600 4600
+F 0 "D21" V 6646 4521 50  0000 R CNN
+F 1 "D" V 6555 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6600 4600 50  0001 C CNN
+F 3 "~" H 6600 4600 50  0001 C CNN
+	1    6600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW22
+U 1 1 5C04C266
+P 7150 4450
+F 0 "SW22" H 7150 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7150 4450 50  0001 C CNN
+F 3 "" H 7150 4450 50  0000 C CNN
+	1    7150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5C04C270
+P 7450 4600
+F 0 "D22" V 7496 4521 50  0000 R CNN
+F 1 "D" V 7405 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7450 4600 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW23
+U 1 1 5C04C27A
+P 8000 4450
+F 0 "SW23" H 8000 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8000 4450 50  0001 C CNN
+F 3 "" H 8000 4450 50  0000 C CNN
+	1    8000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D23
+U 1 1 5C04C284
+P 8300 4600
+F 0 "D23" V 8346 4521 50  0000 R CNN
+F 1 "D" V 8255 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8300 4600 50  0001 C CNN
+F 3 "~" H 8300 4600 50  0001 C CNN
+	1    8300 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW24
+U 1 1 5C04C28E
+P 8850 4450
+F 0 "SW24" H 8850 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8850 4450 50  0001 C CNN
+F 3 "" H 8850 4450 50  0000 C CNN
+	1    8850 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D24
+U 1 1 5C04C298
+P 9150 4600
+F 0 "D24" V 9196 4521 50  0000 R CNN
+F 1 "D" V 9105 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9150 4600 50  0001 C CNN
+F 3 "~" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW25
+U 1 1 5C04C2A2
+P 9700 4450
+F 0 "SW25" H 9700 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9700 4450 50  0001 C CNN
+F 3 "" H 9700 4450 50  0000 C CNN
+	1    9700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D25
+U 1 1 5C04C2AC
+P 10000 4600
+F 0 "D25" V 10046 4521 50  0000 R CNN
+F 1 "D" V 9955 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10000 4600 50  0001 C CNN
+F 3 "~" H 10000 4600 50  0001 C CNN
+	1    10000 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW26
+U 1 1 5C04C2B6
+P 10550 4450
+F 0 "SW26" H 10550 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10550 4450 50  0001 C CNN
+F 3 "" H 10550 4450 50  0000 C CNN
+	1    10550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D26
+U 1 1 5C04C2C0
+P 10850 4600
+F 0 "D26" V 10896 4521 50  0000 R CNN
+F 1 "D" V 10805 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10850 4600 50  0001 C CNN
+F 3 "~" H 10850 4600 50  0001 C CNN
+	1    10850 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW27
+U 1 1 5C04C2CA
+P 11400 4450
+F 0 "SW27" H 11400 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 11400 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 11400 4450 50  0001 C CNN
+F 3 "" H 11400 4450 50  0000 C CNN
+	1    11400 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5C04C2D4
+P 11700 4600
+F 0 "D27" V 11746 4521 50  0000 R CNN
+F 1 "D" V 11655 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 11700 4600 50  0001 C CNN
+F 3 "~" H 11700 4600 50  0001 C CNN
+	1    11700 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW28
+U 1 1 5C04C2DE
+P 12250 4450
+F 0 "SW28" H 12250 4705 50  0000 C CNN
+F 1 "SW_PUSH" H 12250 4614 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 12250 4450 50  0001 C CNN
+F 3 "" H 12250 4450 50  0000 C CNN
+	1    12250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D28
+U 1 1 5C04C2E8
+P 12550 4600
+F 0 "D28" V 12596 4521 50  0000 R CNN
+F 1 "D" V 12505 4521 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 12550 4600 50  0001 C CNN
+F 3 "~" H 12550 4600 50  0001 C CNN
+	1    12550 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW29
+U 1 1 5C05CD36
+P 1200 5200
+F 0 "SW29" H 1200 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 1200 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 1200 5200 50  0001 C CNN
+F 3 "" H 1200 5200 50  0000 C CNN
+	1    1200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D29
+U 1 1 5C05CD40
+P 1500 5350
+F 0 "D29" V 1546 5271 50  0000 R CNN
+F 1 "D" V 1455 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 1500 5350 50  0001 C CNN
+F 3 "~" H 1500 5350 50  0001 C CNN
+	1    1500 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW30
+U 1 1 5C05CD4A
+P 2050 5200
+F 0 "SW30" H 2050 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 2050 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2050 5200 50  0001 C CNN
+F 3 "" H 2050 5200 50  0000 C CNN
+	1    2050 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D30
+U 1 1 5C05CD54
+P 2350 5350
+F 0 "D30" V 2396 5271 50  0000 R CNN
+F 1 "D" V 2305 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 2350 5350 50  0001 C CNN
+F 3 "~" H 2350 5350 50  0001 C CNN
+	1    2350 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW31
+U 1 1 5C05CD5E
+P 2900 5200
+F 0 "SW31" H 2900 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 2900 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0000 C CNN
+	1    2900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5C05CD68
+P 3200 5350
+F 0 "D31" V 3246 5271 50  0000 R CNN
+F 1 "D" V 3155 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 3200 5350 50  0001 C CNN
+F 3 "~" H 3200 5350 50  0001 C CNN
+	1    3200 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW32
+U 1 1 5C05CD72
+P 3750 5200
+F 0 "SW32" H 3750 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 3750 5200 50  0001 C CNN
+F 3 "" H 3750 5200 50  0000 C CNN
+	1    3750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D32
+U 1 1 5C05CD7C
+P 4050 5350
+F 0 "D32" V 4096 5271 50  0000 R CNN
+F 1 "D" V 4005 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4050 5350 50  0001 C CNN
+F 3 "~" H 4050 5350 50  0001 C CNN
+	1    4050 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW33
+U 1 1 5C05CD86
+P 4600 5200
+F 0 "SW33" H 4600 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 4600 5200 50  0001 C CNN
+F 3 "" H 4600 5200 50  0000 C CNN
+	1    4600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5C05CD90
+P 4900 5350
+F 0 "D33" V 4946 5271 50  0000 R CNN
+F 1 "D" V 4855 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4900 5350 50  0001 C CNN
+F 3 "~" H 4900 5350 50  0001 C CNN
+	1    4900 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW34
+U 1 1 5C05CD9A
+P 5450 5200
+F 0 "SW34" H 5450 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5450 5200 50  0001 C CNN
+F 3 "" H 5450 5200 50  0000 C CNN
+	1    5450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D34
+U 1 1 5C05CDA4
+P 5750 5350
+F 0 "D34" V 5796 5271 50  0000 R CNN
+F 1 "D" V 5705 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5750 5350 50  0001 C CNN
+F 3 "~" H 5750 5350 50  0001 C CNN
+	1    5750 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW35
+U 1 1 5C05CDAE
+P 6300 5200
+F 0 "SW35" H 6300 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0000 C CNN
+	1    6300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D35
+U 1 1 5C05CDB8
+P 6600 5350
+F 0 "D35" V 6646 5271 50  0000 R CNN
+F 1 "D" V 6555 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6600 5350 50  0001 C CNN
+F 3 "~" H 6600 5350 50  0001 C CNN
+	1    6600 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW36
+U 1 1 5C05CDC2
+P 7150 5200
+F 0 "SW36" H 7150 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7150 5200 50  0001 C CNN
+F 3 "" H 7150 5200 50  0000 C CNN
+	1    7150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D36
+U 1 1 5C05CDCC
+P 7450 5350
+F 0 "D36" V 7496 5271 50  0000 R CNN
+F 1 "D" V 7405 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7450 5350 50  0001 C CNN
+F 3 "~" H 7450 5350 50  0001 C CNN
+	1    7450 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW37
+U 1 1 5C05CDD6
+P 8000 5200
+F 0 "SW37" H 8000 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8000 5200 50  0001 C CNN
+F 3 "" H 8000 5200 50  0000 C CNN
+	1    8000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D37
+U 1 1 5C05CDE0
+P 8300 5350
+F 0 "D37" V 8346 5271 50  0000 R CNN
+F 1 "D" V 8255 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8300 5350 50  0001 C CNN
+F 3 "~" H 8300 5350 50  0001 C CNN
+	1    8300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW38
+U 1 1 5C05CDEA
+P 8850 5200
+F 0 "SW38" H 8850 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8850 5200 50  0001 C CNN
+F 3 "" H 8850 5200 50  0000 C CNN
+	1    8850 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5C05CDF4
+P 9150 5350
+F 0 "D38" V 9196 5271 50  0000 R CNN
+F 1 "D" V 9105 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9150 5350 50  0001 C CNN
+F 3 "~" H 9150 5350 50  0001 C CNN
+	1    9150 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW39
+U 1 1 5C05CDFE
+P 9700 5200
+F 0 "SW39" H 9700 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9700 5200 50  0001 C CNN
+F 3 "" H 9700 5200 50  0000 C CNN
+	1    9700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D39
+U 1 1 5C05CE08
+P 10000 5350
+F 0 "D39" V 10046 5271 50  0000 R CNN
+F 1 "D" V 9955 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10000 5350 50  0001 C CNN
+F 3 "~" H 10000 5350 50  0001 C CNN
+	1    10000 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW40
+U 1 1 5C05CE12
+P 10550 5200
+F 0 "SW40" H 10550 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10550 5200 50  0001 C CNN
+F 3 "" H 10550 5200 50  0000 C CNN
+	1    10550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D40
+U 1 1 5C05CE1C
+P 10850 5350
+F 0 "D40" V 10896 5271 50  0000 R CNN
+F 1 "D" V 10805 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10850 5350 50  0001 C CNN
+F 3 "~" H 10850 5350 50  0001 C CNN
+	1    10850 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW41
+U 1 1 5C05CE26
+P 11400 5200
+F 0 "SW41" H 11400 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 11400 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 11400 5200 50  0001 C CNN
+F 3 "" H 11400 5200 50  0000 C CNN
+	1    11400 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D41
+U 1 1 5C05CE30
+P 11700 5350
+F 0 "D41" V 11746 5271 50  0000 R CNN
+F 1 "D" V 11655 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 11700 5350 50  0001 C CNN
+F 3 "~" H 11700 5350 50  0001 C CNN
+	1    11700 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW42
+U 1 1 5C05CE3A
+P 12250 5200
+F 0 "SW42" H 12250 5455 50  0000 C CNN
+F 1 "SW_PUSH" H 12250 5364 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 12250 5200 50  0001 C CNN
+F 3 "" H 12250 5200 50  0000 C CNN
+	1    12250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D42
+U 1 1 5C05CE44
+P 12550 5350
+F 0 "D42" V 12596 5271 50  0000 R CNN
+F 1 "D" V 12505 5271 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 12550 5350 50  0001 C CNN
+F 3 "~" H 12550 5350 50  0001 C CNN
+	1    12550 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW43
+U 1 1 5C05CE4E
+P 2900 6000
+F 0 "SW43" H 2900 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 2900 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 2900 6000 50  0001 C CNN
+F 3 "" H 2900 6000 50  0000 C CNN
+	1    2900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D43
+U 1 1 5C05CE58
+P 3200 6150
+F 0 "D43" V 3246 6071 50  0000 R CNN
+F 1 "D" V 3155 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 3200 6150 50  0001 C CNN
+F 3 "~" H 3200 6150 50  0001 C CNN
+	1    3200 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW44
+U 1 1 5C05CE62
+P 3750 6000
+F 0 "SW44" H 3750 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 3750 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 3750 6000 50  0001 C CNN
+F 3 "" H 3750 6000 50  0000 C CNN
+	1    3750 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5C05CE6C
+P 4050 6150
+F 0 "D44" V 4096 6071 50  0000 R CNN
+F 1 "D" V 4005 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4050 6150 50  0001 C CNN
+F 3 "~" H 4050 6150 50  0001 C CNN
+	1    4050 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW45
+U 1 1 5C05CE76
+P 4600 6000
+F 0 "SW45" H 4600 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 4600 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 4600 6000 50  0001 C CNN
+F 3 "" H 4600 6000 50  0000 C CNN
+	1    4600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D45
+U 1 1 5C05CE80
+P 4900 6150
+F 0 "D45" V 4946 6071 50  0000 R CNN
+F 1 "D" V 4855 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 4900 6150 50  0001 C CNN
+F 3 "~" H 4900 6150 50  0001 C CNN
+	1    4900 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW46
+U 1 1 5C05CE8A
+P 5450 6000
+F 0 "SW46" H 5450 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 5450 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 5450 6000 50  0001 C CNN
+F 3 "" H 5450 6000 50  0000 C CNN
+	1    5450 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D46
+U 1 1 5C05CE94
+P 5750 6150
+F 0 "D46" V 5796 6071 50  0000 R CNN
+F 1 "D" V 5705 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 5750 6150 50  0001 C CNN
+F 3 "~" H 5750 6150 50  0001 C CNN
+	1    5750 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW47
+U 1 1 5C05CE9E
+P 6300 6000
+F 0 "SW47" H 6300 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap_2u" H 6300 6000 50  0001 C CNN
+F 3 "" H 6300 6000 50  0000 C CNN
+	1    6300 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D47
+U 1 1 5C05CEA8
+P 6600 6150
+F 0 "D47" V 6646 6071 50  0000 R CNN
+F 1 "D" V 6555 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 6600 6150 50  0001 C CNN
+F 3 "~" H 6600 6150 50  0001 C CNN
+	1    6600 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW48
+U 1 1 5C05CEB2
+P 7150 6000
+F 0 "SW48" H 7150 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 7150 6000 50  0001 C CNN
+F 3 "" H 7150 6000 50  0000 C CNN
+	1    7150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D48
+U 1 1 5C05CEBC
+P 7450 6150
+F 0 "D48" V 7496 6071 50  0000 R CNN
+F 1 "D" V 7405 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 7450 6150 50  0001 C CNN
+F 3 "~" H 7450 6150 50  0001 C CNN
+	1    7450 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW49
+U 1 1 5C05CEC6
+P 8000 6000
+F 0 "SW49" H 8000 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 8000 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8000 6000 50  0001 C CNN
+F 3 "" H 8000 6000 50  0000 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D49
+U 1 1 5C05CED0
+P 8300 6150
+F 0 "D49" V 8346 6071 50  0000 R CNN
+F 1 "D" V 8255 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 8300 6150 50  0001 C CNN
+F 3 "~" H 8300 6150 50  0001 C CNN
+	1    8300 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW50
+U 1 1 5C05CEDA
+P 8850 6000
+F 0 "SW50" H 8850 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 8850 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 8850 6000 50  0001 C CNN
+F 3 "" H 8850 6000 50  0000 C CNN
+	1    8850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5C05CEE4
+P 9150 6150
+F 0 "D50" V 9196 6071 50  0000 R CNN
+F 1 "D" V 9105 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 9150 6150 50  0001 C CNN
+F 3 "~" H 9150 6150 50  0001 C CNN
+	1    9150 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L kbd:SW_PUSH SW51
+U 1 1 5C05CEEE
+P 9700 6000
+F 0 "SW51" H 9700 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 9700 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 9700 6000 50  0001 C CNN
+F 3 "" H 9700 6000 50  0000 C CNN
+	1    9700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D51
+U 1 1 5C05CEF8
+P 10000 6150
+F 0 "D51" V 10046 6071 50  0000 R CNN
+F 1 "D" V 9955 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10000 6150 50  0001 C CNN
+F 3 "~" H 10000 6150 50  0001 C CNN
+	1    10000 6150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 900  3150 1    50   Input ~ 0
+col0
+Text GLabel 1750 3150 1    50   Input ~ 0
+col1
+Text GLabel 2600 3150 1    50   Input ~ 0
+col2
+Text GLabel 3450 3150 1    50   Input ~ 0
+col3
+Text GLabel 4300 3150 1    50   Input ~ 0
+col4
+Text GLabel 5150 3150 1    50   Input ~ 0
+col5
+Text GLabel 6000 3150 1    50   Input ~ 0
+col6
+Text GLabel 6850 3150 1    50   Input ~ 0
+col7
+Text GLabel 7700 3150 1    50   Input ~ 0
+col8
+Text GLabel 8550 3150 1    50   Input ~ 0
+col9
+Text GLabel 9400 3150 1    50   Input ~ 0
+col10
+Text GLabel 10250 3150 1    50   Input ~ 0
+col11
+Text GLabel 11100 3150 1    50   Input ~ 0
+col12
+Text GLabel 11950 3150 1    50   Input ~ 0
+col13
+Text GLabel 800  3950 0    50   Input ~ 0
+row0
+Text GLabel 800  4750 0    50   Input ~ 0
+row1
+Text GLabel 800  5500 0    50   Input ~ 0
+row2
+Text GLabel 800  6300 0    50   Input ~ 0
+row3
+Wire Wire Line
+	900  3150 900  3650
+Connection ~ 900  3650
+Wire Wire Line
+	900  3650 900  4450
+Connection ~ 900  4450
+Wire Wire Line
+	900  4450 900  5200
+Wire Wire Line
+	1750 3150 1750 3650
+Connection ~ 1750 3650
+Wire Wire Line
+	1750 3650 1750 4450
+Connection ~ 1750 4450
+Wire Wire Line
+	1750 4450 1750 5200
+Wire Wire Line
+	3450 5200 3450 6000
+Wire Wire Line
+	2600 3150 2600 3650
+Wire Wire Line
+	4300 6000 4250 6000
+Connection ~ 4300 6000
+Connection ~ 2600 3650
+Wire Wire Line
+	2600 3650 2600 4450
+Connection ~ 2600 4450
+Wire Wire Line
+	2600 4450 2600 5200
+Wire Wire Line
+	4300 5200 4300 6000
+Wire Wire Line
+	3450 3150 3450 3650
+Connection ~ 3450 3650
+Wire Wire Line
+	3450 3650 3450 4450
+Connection ~ 3450 4450
+Wire Wire Line
+	3450 4450 3450 5200
+Connection ~ 3450 5200
+Wire Wire Line
+	5150 5200 5150 6000
+Wire Wire Line
+	4300 3150 4300 3650
+Connection ~ 4300 3650
+Wire Wire Line
+	4300 3650 4300 4450
+Connection ~ 4300 4450
+Wire Wire Line
+	4300 4450 4300 5200
+Connection ~ 4300 5200
+Wire Wire Line
+	6000 5200 6000 6000
+Wire Wire Line
+	5150 3150 5150 3650
+Connection ~ 5150 3650
+Wire Wire Line
+	5150 3650 5150 4450
+Connection ~ 5150 4450
+Wire Wire Line
+	5150 4450 5150 5200
+Connection ~ 5150 5200
+Wire Wire Line
+	6850 5200 6850 6000
+Wire Wire Line
+	6000 3150 6000 3650
+Connection ~ 6000 3650
+Wire Wire Line
+	6000 3650 6000 4450
+Connection ~ 6000 4450
+Wire Wire Line
+	6000 4450 6000 5200
+Connection ~ 6000 5200
+Wire Wire Line
+	7700 5200 7700 6000
+Wire Wire Line
+	6850 3150 6850 3650
+Connection ~ 6850 3650
+Wire Wire Line
+	6850 3650 6850 4450
+Connection ~ 6850 4450
+Wire Wire Line
+	6850 4450 6850 5200
+Wire Wire Line
+	8550 5200 8550 6000
+Wire Wire Line
+	7700 3150 7700 3650
+Connection ~ 7700 3650
+Wire Wire Line
+	7700 3650 7700 4450
+Connection ~ 7700 4450
+Wire Wire Line
+	7700 4450 7700 5200
+Wire Wire Line
+	9400 5200 9400 6000
+Wire Wire Line
+	8550 3150 8550 3650
+Connection ~ 8550 3650
+Wire Wire Line
+	8550 3650 8550 4450
+Connection ~ 8550 4450
+Wire Wire Line
+	8550 4450 8550 5200
+Wire Wire Line
+	9400 3150 9400 3650
+Connection ~ 9400 3650
+Wire Wire Line
+	9400 3650 9400 4450
+Connection ~ 9400 4450
+Wire Wire Line
+	9400 4450 9400 5200
+Wire Wire Line
+	10250 3150 10250 3650
+Connection ~ 10250 3650
+Wire Wire Line
+	10250 3650 10250 4450
+Connection ~ 10250 4450
+Wire Wire Line
+	10250 4450 10250 5200
+Wire Wire Line
+	11100 3150 11100 3650
+Connection ~ 11100 3650
+Wire Wire Line
+	11100 3650 11100 4450
+Connection ~ 11100 4450
+Wire Wire Line
+	11100 4450 11100 5200
+Wire Wire Line
+	11950 3150 11950 3650
+Connection ~ 11950 3650
+Wire Wire Line
+	11950 3650 11950 4450
+Connection ~ 11950 4450
+Wire Wire Line
+	11950 4450 11950 5200
+Wire Wire Line
+	12550 3950 11700 3950
+Connection ~ 1500 3950
+Wire Wire Line
+	1500 3950 800  3950
+Connection ~ 2350 3950
+Wire Wire Line
+	2350 3950 1500 3950
+Connection ~ 3200 3950
+Wire Wire Line
+	3200 3950 2350 3950
+Connection ~ 4050 3950
+Wire Wire Line
+	4050 3950 3200 3950
+Connection ~ 4900 3950
+Wire Wire Line
+	4900 3950 4050 3950
+Connection ~ 5750 3950
+Wire Wire Line
+	5750 3950 4900 3950
+Connection ~ 6600 3950
+Wire Wire Line
+	6600 3950 5750 3950
+Connection ~ 7450 3950
+Wire Wire Line
+	7450 3950 6600 3950
+Connection ~ 8300 3950
+Wire Wire Line
+	8300 3950 7450 3950
+Connection ~ 9150 3950
+Wire Wire Line
+	9150 3950 8300 3950
+Connection ~ 10000 3950
+Wire Wire Line
+	10000 3950 9150 3950
+Connection ~ 10850 3950
+Wire Wire Line
+	10850 3950 10000 3950
+Connection ~ 11700 3950
+Wire Wire Line
+	11700 3950 10850 3950
+Wire Wire Line
+	800  4750 1500 4750
+Connection ~ 1500 4750
+Wire Wire Line
+	1500 4750 2350 4750
+Connection ~ 2350 4750
+Wire Wire Line
+	2350 4750 3200 4750
+Connection ~ 3200 4750
+Wire Wire Line
+	3200 4750 4050 4750
+Connection ~ 4050 4750
+Wire Wire Line
+	4050 4750 4900 4750
+Connection ~ 4900 4750
+Wire Wire Line
+	4900 4750 5750 4750
+Connection ~ 5750 4750
+Wire Wire Line
+	5750 4750 6600 4750
+Connection ~ 6600 4750
+Wire Wire Line
+	6600 4750 7450 4750
+Connection ~ 7450 4750
+Wire Wire Line
+	7450 4750 8300 4750
+Connection ~ 8300 4750
+Wire Wire Line
+	8300 4750 9150 4750
+Connection ~ 9150 4750
+Wire Wire Line
+	9150 4750 10000 4750
+Connection ~ 10000 4750
+Wire Wire Line
+	10000 4750 10850 4750
+Connection ~ 10850 4750
+Wire Wire Line
+	10850 4750 11700 4750
+Connection ~ 11700 4750
+Wire Wire Line
+	11700 4750 12550 4750
+Wire Wire Line
+	12550 5500 11700 5500
+Connection ~ 1500 5500
+Wire Wire Line
+	1500 5500 800  5500
+Connection ~ 2350 5500
+Wire Wire Line
+	2350 5500 1500 5500
+Connection ~ 3200 5500
+Wire Wire Line
+	3200 5500 2350 5500
+Connection ~ 4050 5500
+Wire Wire Line
+	4050 5500 3200 5500
+Connection ~ 4900 5500
+Wire Wire Line
+	4900 5500 4050 5500
+Connection ~ 5750 5500
+Wire Wire Line
+	5750 5500 4900 5500
+Connection ~ 6600 5500
+Wire Wire Line
+	6600 5500 5750 5500
+Connection ~ 7450 5500
+Wire Wire Line
+	7450 5500 6600 5500
+Connection ~ 8300 5500
+Wire Wire Line
+	8300 5500 7450 5500
+Connection ~ 9150 5500
+Wire Wire Line
+	9150 5500 8300 5500
+Connection ~ 10000 5500
+Wire Wire Line
+	10000 5500 9150 5500
+Connection ~ 10850 5500
+Wire Wire Line
+	10850 5500 10000 5500
+Connection ~ 11700 5500
+Wire Wire Line
+	11700 5500 10850 5500
+Connection ~ 3200 6300
+Wire Wire Line
+	3200 6300 4050 6300
+Connection ~ 4050 6300
+Wire Wire Line
+	4050 6300 4900 6300
+Connection ~ 4900 6300
+Wire Wire Line
+	4900 6300 5750 6300
+Connection ~ 5750 6300
+Wire Wire Line
+	5750 6300 6600 6300
+Connection ~ 6600 6300
+$Comp
+L power:GND #PWR05
+U 1 1 5C082698
+P 1350 1800
+F 0 "#PWR05" H 1350 1550 50  0001 C CNN
+F 1 "GND" H 1355 1627 50  0000 C CNN
+F 2 "" H 1350 1800 50  0001 C CNN
+F 3 "" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C08386A
+P 3750 1500
+F 0 "#PWR02" H 3750 1250 50  0001 C CNN
+F 1 "GND" H 3755 1327 50  0000 C CNN
+F 2 "" H 3750 1500 50  0001 C CNN
+F 3 "" H 3750 1500 50  0001 C CNN
+	1    3750 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 1500 3200 1500
+Wire Wire Line
+	1350 1600 1800 1600
+Wire Wire Line
+	1800 1700 1350 1700
+Wire Wire Line
+	1350 1600 1350 1700
+Connection ~ 1350 1700
+Wire Wire Line
+	1350 1700 1350 1800
+NoConn ~ 3200 1400
+Text GLabel 3200 1600 2    50   Input ~ 0
+reset
+Text GLabel 3200 1800 2    50   Input ~ 0
+row0
+Text GLabel 3200 1900 2    50   Input ~ 0
+col1
+Text GLabel 3200 2000 2    50   Input ~ 0
+row1
+Text GLabel 3200 2100 2    50   Input ~ 0
+col0
+Text GLabel 3200 2200 2    50   Input ~ 0
+col13
+Text GLabel 3200 2300 2    50   Input ~ 0
+col10
+Text GLabel 3200 2400 2    50   Input ~ 0
+col11
+Text GLabel 3200 2500 2    50   Input ~ 0
+col12
+Text GLabel 1800 2500 0    50   Input ~ 0
+row3
+Text GLabel 1800 2400 0    50   Input ~ 0
+col8
+Text GLabel 1800 2300 0    50   Input ~ 0
+col7
+Text GLabel 1800 2200 0    50   Input ~ 0
+col6
+Text GLabel 1800 2100 0    50   Input ~ 0
+col5
+Text GLabel 1800 2000 0    50   Input ~ 0
+col4
+Text GLabel 1800 1900 0    50   Input ~ 0
+col3
+Text GLabel 1800 1800 0    50   Input ~ 0
+row2
+Text GLabel 1800 1500 0    50   Input ~ 0
+col2
+Text GLabel 1800 1400 0    50   Input ~ 0
+col9
+$Comp
+L power:VCC #PWR01
+U 1 1 5C097491
+P 3600 1300
+F 0 "#PWR01" H 3600 1150 50  0001 C CNN
+F 1 "VCC" H 3617 1473 50  0000 C CNN
+F 2 "" H 3600 1300 50  0001 C CNN
+F 3 "" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1300 3600 1700
+Wire Wire Line
+	3600 1700 3200 1700
+$Comp
+L power:GND #PWR04
+U 1 1 5C09B5EE
+P 4550 1750
+F 0 "#PWR04" H 4550 1500 50  0001 C CNN
+F 1 "GND" H 4555 1577 50  0000 C CNN
+F 2 "" H 4550 1750 50  0001 C CNN
+F 3 "" H 4550 1750 50  0001 C CNN
+	1    4550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 5C09BFAF
+P 5000 1600
+F 0 "#PWR03" H 5000 1450 50  0001 C CNN
+F 1 "VCC" H 5017 1773 50  0000 C CNN
+F 2 "" H 5000 1600 50  0001 C CNN
+F 3 "" H 5000 1600 50  0001 C CNN
+	1    5000 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5C09C65F
+P 4550 1600
+F 0 "#FLG01" H 4550 1675 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 1773 50  0000 C CNN
+F 2 "" H 4550 1600 50  0001 C CNN
+F 3 "~" H 4550 1600 50  0001 C CNN
+	1    4550 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C09C9EA
+P 5000 1750
+F 0 "#FLG02" H 5000 1825 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 1923 50  0000 C CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "~" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1600 5000 1750
+Wire Wire Line
+	4550 1600 4550 1750
+$Comp
+L kbd:SW_PUSH SW53
+U 1 1 5C0A3A52
+P 4800 6900
+F 0 "SW53" H 4800 7155 50  0000 C CNN
+F 1 "SW_PUSH" H 4800 7064 50  0000 C CNN
+F 2 "kbd:ResetSW_4P" H 4800 6900 50  0001 C CNN
+F 3 "" H 4800 6900 50  0000 C CNN
+	1    4800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C0A4144
+P 5100 6900
+F 0 "#PWR06" H 5100 6650 50  0001 C CNN
+F 1 "GND" H 5105 6727 50  0000 C CNN
+F 2 "" H 5100 6900 50  0001 C CNN
+F 3 "" H 5100 6900 50  0001 C CNN
+	1    5100 6900
+	1    0    0    -1  
+$EndComp
+Text GLabel 4500 6900 0    50   Input ~ 0
+reset
+Connection ~ 8550 5200
+Connection ~ 9400 5200
+Wire Wire Line
+	800  6300 3200 6300
+Wire Wire Line
+	8300 6300 9150 6300
+Connection ~ 8300 6300
+Connection ~ 9150 6300
+Wire Wire Line
+	9150 6300 10000 6300
+Wire Wire Line
+	2600 5200 2600 6000
+Connection ~ 2600 5200
+Wire Wire Line
+	6600 6300 7450 6300
+Connection ~ 7700 5200
+Wire Wire Line
+	10850 6300 10000 6300
+Connection ~ 10000 6300
+Connection ~ 6850 5200
+Connection ~ 7450 6300
+Wire Wire Line
+	7450 6300 8300 6300
+$Comp
+L kbd:SW_PUSH SW52
+U 1 1 5C0779AC
+P 10550 6000
+F 0 "SW52" H 10550 6255 50  0000 C CNN
+F 1 "SW_PUSH" H 10550 6164 50  0000 C CNN
+F 2 "eswai:CherryMX_Hotswap" H 10550 6000 50  0001 C CNN
+F 3 "" H 10550 6000 50  0000 C CNN
+	1    10550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D52
+U 1 1 5C078300
+P 10850 6150
+F 0 "D52" V 10896 6071 50  0000 R CNN
+F 1 "D" V 10805 6071 50  0000 R CNN
+F 2 "eswai:Diode-dual" H 10850 6150 50  0001 C CNN
+F 3 "~" H 10850 6150 50  0001 C CNN
+	1    10850 6150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 5200 10250 6000
+Connection ~ 10250 5200
+$EndSCHEMATC

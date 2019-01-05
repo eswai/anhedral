@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name wave-rescue)(type Legacy)(uri ${KIPRJMOD}/wave-rescue.lib)(options "")(descr ""))
+)
