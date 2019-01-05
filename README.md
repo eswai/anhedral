@@ -10,7 +10,7 @@
 - Cherry MXまたは互換キースイッチ専用
 - 104キーキャップ対応
 
-[ANHEDRAL](anhedral1-1.jpeg)
+![ANHEDRAL](anhedral1-1.jpeg)
 
 ## BOM 部品リスト
 - トッププレート(PCB 1.6mm) 1個
